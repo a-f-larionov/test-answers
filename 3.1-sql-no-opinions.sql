@@ -7,4 +7,4 @@ SELECT DISTINCT clinics.name
   clinics.id = clinic_opinions.clinic_id
 
   WHERE
-  clinic_opinions.clinic_id IS NOT NULL;
+  clinic_opinions.clinic_id IS NULL;
